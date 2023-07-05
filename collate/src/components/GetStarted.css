@@ -1,0 +1,56 @@
+.get-started-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background-image: url('./collective-consciousness-ai-dev.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 200px;
+    height: 200px; /* Make sure the height and width are equal */
+    border-radius: 50%; /* This makes the image round */
+    object-fit: cover; /* This ensures the image covers the full area */
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust as needed */
+    background-color: #FE9A53; /* Adjust color as needed */
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.collate {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust as needed */
+    background-color: #7e6ffe; /* Adjust color as needed */
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.get-started-button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #d656ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.get-started-button:hover {
+    background-color: #7e6ffe;
+}
